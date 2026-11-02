@@ -27,6 +27,7 @@ setup(
 
     description='HTTP security headers for Pboot.',
     long_description=long_description,
+    long_description_content_type='text/x-rst',
 
     url='https://gitee.com/pboot-org/pboot-talisman',
 
@@ -59,5 +60,6 @@ setup(
 
     packages=['pboot_talisman'],
 
+    python_requires='>=3.11',
     install_requires=['pboot>=3.2.0'],
 )
